@@ -194,3 +194,4 @@ nohup ./build/multi-chain-storage >> ./build/mcs.log &       #After installation
 9. After success DAO signatures number equal or greater than DAO threshold defined in smart contract, and after 1 minute later of the last DAO signature, MCS will unlock the user's payment, release the money spent on send deal by [Swan Client API](https://github.com/filswan/go-swan-client) to `[polygon].payment_recipient_address` defined in [Configuration](#Configuration)
 10. After all deals of a car file are unlocked, MCS refund the remaining money to user wallet address used when pay in step 2.
 
+
